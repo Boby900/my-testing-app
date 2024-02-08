@@ -5,7 +5,9 @@
             "version": "17.0.2"
         }
     },
-    "parser": "babel-eslint",
+    "parser": "@babel/eslint-parser",
+    "parserOptions": {
+        "sourceType": "module"},
     "rules": {
         "no-extra-parens": 0,
         "react/prop-types": 0,
